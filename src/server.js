@@ -7,7 +7,6 @@ const server = express();
 
 server.get('/home', (_, res) => res.send('Welcome home!'));
 
-
 //When you ask for '/bye', you receive 'See ya later, alligator!'
 
 server.get('/bye', (_, res) => res.send('See ya later, alligator!'));
